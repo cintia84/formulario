@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap");
+
+body {
+    font-family: 'Neuton';
+    background-color: #e89867;
+    padding: 20px;
+}
+
+form {
+    background-color: #cbcefa;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]   
+ {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+select   
+ {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41; 
+
+}
